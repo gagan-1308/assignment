@@ -2,10 +2,10 @@
 #Create a dictionary of student names and marks
 student_marks = {
         "Alice": 85,
-        "Bob": 78,
-        "Charlie": 92,
-        "David": 67,
-        "Eva": 90}
+        "Carol": 78,
+        "Gagan": 92,
+        "Harsh": 67,
+        "Jatin": 90}
 name = input("Enter the student's name: ") #Ask the user for a student's name
 if name in student_marks:   #Retrieve marks or show error message
     print(f"{name}'s marks: {student_marks[name]}")
